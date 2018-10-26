@@ -17,3 +17,6 @@ Route::get('/', function () {
 });
 
 Route::get('/set_language/{lang}', 'Controller@setLanguage')->name('set_language');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
