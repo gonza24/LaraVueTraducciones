@@ -11,6 +11,9 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/set_language/{lang}', 'Controller@setLanguage')->name('set_language');
