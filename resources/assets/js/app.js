@@ -19,13 +19,15 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
 
 import VueInternationalization from 'vue-i18n';
 import Locale from './vue-i18n-locales.generated';
+
 window.Vue.use(VueInternationalization);
+
 const i18n = new VueInternationalization({
-    locale: window.lang,
+    locale: 'es',
     messages: Locale
 });
 
 const app = new Vue({
     el: '#app',
-    i18n,
-}
+    i18n
+})

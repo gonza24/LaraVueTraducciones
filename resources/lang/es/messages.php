@@ -7,4 +7,5 @@
  */
     return [
         'welcome' => 'Bienvenido, :name',
+        'dashboard' => 'Página Principal'
     ];

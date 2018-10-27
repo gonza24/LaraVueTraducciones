@@ -6,7 +6,9 @@
                     <div class="card-header">Example Component</div>
 
                     <div class="card-body">
-                        I'm an example component.
+                        {{  $t('messages.welcome', {name: 'GonzaDiber'} )}}
+                        <br>
+                        {{ $t('messages.dashboard') }}
                     </div>
                 </div>
             </div>

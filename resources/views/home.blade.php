@@ -7,6 +7,9 @@
             <div class="card">
                 <div class="card-header">Dashboard</div>
 
+                    <p>@lang('messages.welcome', ['name' => 'GonzaDiber'])</p>
+                    <p>@lang('messages.dashboard')</p>
+
                     <example-component></example-component>
 
             </div>

@@ -5,7 +5,8 @@ export default {
             "throttle": "Too many login attempts. Please try again in {seconds} seconds."
         },
         "messages": {
-            "welcome": "Welcome, {name}"
+            "welcome": "Welcome, {name}",
+            "dashboard": "Dashboard Page"
         },
         "pagination": {
             "previous": "&laquo; Previous",
@@ -132,7 +133,8 @@ export default {
             "throttle": "Demasiados intentos de acceso. Por favor intente nuevamente en {seconds} segundos."
         },
         "messages": {
-            "welcome": "Bienvenido, {name}"
+            "welcome": "Bienvenido, {name}",
+            "dashboard": "Página Principal"
         },
         "pagination": {
             "previous": "&laquo; Anterior",
