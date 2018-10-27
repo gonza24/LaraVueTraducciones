@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">Dashboard</div>
 
-
+                    <example-component></example-component>
 
             </div>
         </div>

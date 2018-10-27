@@ -17,6 +17,15 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
-const app = new Vue({
-    el: '#app'
+import VueInternationalization from 'vue-i18n';
+import Locale from './vue-i18n-locales.generated';
+window.Vue.use(VueInternationalization);
+const i18n = new VueInternationalization({
+    locale: window.lang,
+    messages: Locale
 });
+
+const app = new Vue({
+    el: '#app',
+    i18n,
+}

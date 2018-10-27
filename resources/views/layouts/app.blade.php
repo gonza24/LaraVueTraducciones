@@ -19,6 +19,11 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <script>
+        window.lang = '{{ session('appLocale') }}';
+        console.log(window.lang);
+    </script>
 </head>
 <body>
     <div id="app">
